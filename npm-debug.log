@@ -1,0 +1,243 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/versions/node/v4.7.3/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/versions/node/v4.7.3/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@2.15.11
+3 info using node@v4.7.3
+4 verbose readDependencies loading dependencies from /home/ubuntu/workspace/package.json
+5 verbose install where, deps [ '/home/ubuntu/workspace',
+5 verbose install   [ '@angular/common',
+5 verbose install     '@angular/compiler',
+5 verbose install     '@angular/core',
+5 verbose install     '@angular/forms',
+5 verbose install     '@angular/http',
+5 verbose install     '@angular/platform-browser',
+5 verbose install     '@angular/platform-browser-dynamic',
+5 verbose install     '@angular/router',
+5 verbose install     '@angular/upgrade',
+5 verbose install     'angular-in-memory-web-api',
+5 verbose install     'bootstrap',
+5 verbose install     'core-js',
+5 verbose install     'material-design-lite',
+5 verbose install     'ng2-adsense',
+5 verbose install     'reflect-metadata',
+5 verbose install     'rxjs',
+5 verbose install     'systemjs',
+5 verbose install     'zone.js',
+5 verbose install     'canonical-path',
+5 verbose install     'concurrently',
+5 verbose install     'grunt',
+5 verbose install     'http-server',
+5 verbose install     'jasmine-core',
+5 verbose install     'karma',
+5 verbose install     'karma-chrome-launcher',
+5 verbose install     'karma-cli',
+5 verbose install     'karma-htmlfile-reporter',
+5 verbose install     'karma-jasmine',
+5 verbose install     'karma-jasmine-html-reporter',
+5 verbose install     'lite-server',
+5 verbose install     'lodash',
+5 verbose install     'protractor',
+5 verbose install     'rimraf',
+5 verbose install     'tslint',
+5 verbose install     'typescript',
+5 verbose install     'typings' ] ]
+6 verbose install where, peers [ '/home/ubuntu/workspace', [] ]
+7 verbose installManyTop reading for lifecycle /home/ubuntu/workspace/package.json
+8 info preinstall mirenti@1.0.0
+9 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/angular-in-memory-web-api/package.json
+10 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/bootstrap/package.json
+11 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/canonical-path/package.json
+12 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/concurrently/package.json
+13 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/core-js/package.json
+14 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/grunt/package.json
+15 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/http-server/package.json
+16 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/jasmine-core/package.json
+17 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/karma/package.json
+18 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/karma-chrome-launcher/package.json
+19 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/karma-cli/package.json
+20 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/karma-htmlfile-reporter/package.json
+21 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/karma-jasmine/package.json
+22 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/karma-jasmine-html-reporter/package.json
+23 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/lite-server/package.json
+24 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/lodash/package.json
+25 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/material-design-lite/package.json
+26 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/ng2-adsense/package.json
+27 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/protractor/package.json
+28 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/reflect-metadata/package.json
+29 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/rimraf/package.json
+30 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/rxjs/package.json
+31 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/systemjs/package.json
+32 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/tslint/package.json
+33 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/typescript/package.json
+34 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/typings/package.json
+35 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/zone.js/package.json
+36 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/@angular/common/package.json
+37 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/@angular/compiler/package.json
+38 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/@angular/core/package.json
+39 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/@angular/forms/package.json
+40 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/@angular/http/package.json
+41 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/@angular/platform-browser/package.json
+42 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/@angular/platform-browser-dynamic/package.json
+43 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/@angular/router/package.json
+44 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/@angular/upgrade/package.json
+45 info package.json core-js@2.4.1 No README data
+46 info package.json karma-cli@1.0.1 No README data
+47 verbose readDependencies loading dependencies from /home/ubuntu/workspace/package.json
+48 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/angular-in-memory-web-api/package.json
+49 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/bootstrap/package.json
+50 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/canonical-path/package.json
+51 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/concurrently/package.json
+52 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/core-js/package.json
+53 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/grunt/package.json
+54 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/http-server/package.json
+55 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/jasmine-core/package.json
+56 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/karma/package.json
+57 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/karma-chrome-launcher/package.json
+58 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/karma-cli/package.json
+59 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/karma-htmlfile-reporter/package.json
+60 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/karma-jasmine/package.json
+61 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/karma-jasmine-html-reporter/package.json
+62 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/lite-server/package.json
+63 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/lodash/package.json
+64 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/material-design-lite/package.json
+65 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/ng2-adsense/package.json
+66 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/protractor/package.json
+67 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/reflect-metadata/package.json
+68 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/rimraf/package.json
+69 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/rxjs/package.json
+70 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/systemjs/package.json
+71 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/tslint/package.json
+72 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/typescript/package.json
+73 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/typings/package.json
+74 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/zone.js/package.json
+75 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/@angular/common/package.json
+76 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/@angular/compiler/package.json
+77 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/@angular/core/package.json
+78 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/@angular/forms/package.json
+79 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/@angular/http/package.json
+80 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/@angular/platform-browser/package.json
+81 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/@angular/platform-browser-dynamic/package.json
+82 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/@angular/router/package.json
+83 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/@angular/upgrade/package.json
+84 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/.bin/concurrent/package.json
+85 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/.bin/concurrently/package.json
+86 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/.bin/grunt/package.json
+87 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/.bin/hs/package.json
+88 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/.bin/http-server/package.json
+89 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/.bin/karma/package.json
+90 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/.bin/lite-server/package.json
+91 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/.bin/protractor/package.json
+92 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/.bin/rimraf/package.json
+93 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/.bin/tsc/package.json
+94 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/.bin/tslint/package.json
+95 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/.bin/tsserver/package.json
+96 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/.bin/typings/package.json
+97 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/.bin/webdriver-manager/package.json
+98 verbose already installed skipping rxjs@5.0.0-beta.12 /home/ubuntu/workspace
+99 verbose already installed skipping systemjs@0.19.39 /home/ubuntu/workspace
+100 verbose already installed skipping zone.js@^0.6.25 /home/ubuntu/workspace
+101 verbose already installed skipping canonical-path@0.0.2 /home/ubuntu/workspace
+102 verbose already installed skipping concurrently@^3.0.0 /home/ubuntu/workspace
+103 verbose already installed skipping grunt@^1.0.1 /home/ubuntu/workspace
+104 verbose already installed skipping http-server@^0.9.0 /home/ubuntu/workspace
+105 verbose already installed skipping jasmine-core@~2.5.2 /home/ubuntu/workspace
+106 verbose already installed skipping karma@^1.3.0 /home/ubuntu/workspace
+107 verbose already installed skipping karma-chrome-launcher@^2.0.0 /home/ubuntu/workspace
+108 verbose already installed skipping karma-cli@^1.0.1 /home/ubuntu/workspace
+109 verbose already installed skipping karma-htmlfile-reporter@^0.3.4 /home/ubuntu/workspace
+110 verbose already installed skipping karma-jasmine@^1.0.2 /home/ubuntu/workspace
+111 verbose already installed skipping karma-jasmine-html-reporter@^0.2.2 /home/ubuntu/workspace
+112 verbose already installed skipping lite-server@^2.2.2 /home/ubuntu/workspace
+113 verbose already installed skipping lodash@^4.16.2 /home/ubuntu/workspace
+114 verbose already installed skipping protractor@^3.3.0 /home/ubuntu/workspace
+115 verbose already installed skipping rimraf@^2.5.4 /home/ubuntu/workspace
+116 verbose already installed skipping tslint@^3.15.1 /home/ubuntu/workspace
+117 verbose already installed skipping typescript@^2.0.3 /home/ubuntu/workspace
+118 verbose already installed skipping typings@^1.4.0 /home/ubuntu/workspace
+119 verbose already installed skipping @angular/common@~2.0.1 /home/ubuntu/workspace
+120 verbose already installed skipping @angular/compiler@~2.0.1 /home/ubuntu/workspace
+121 verbose already installed skipping @angular/core@~2.0.1 /home/ubuntu/workspace
+122 verbose already installed skipping @angular/forms@~2.0.1 /home/ubuntu/workspace
+123 verbose already installed skipping @angular/http@~2.0.1 /home/ubuntu/workspace
+124 verbose already installed skipping @angular/platform-browser@~2.0.1 /home/ubuntu/workspace
+125 verbose already installed skipping @angular/platform-browser-dynamic@~2.0.1 /home/ubuntu/workspace
+126 verbose already installed skipping @angular/router@~3.0.1 /home/ubuntu/workspace
+127 verbose already installed skipping @angular/upgrade@~2.0.1 /home/ubuntu/workspace
+128 verbose already installed skipping angular-in-memory-web-api@~0.1.1 /home/ubuntu/workspace
+129 verbose already installed skipping bootstrap@^3.3.7 /home/ubuntu/workspace
+130 verbose already installed skipping core-js@^2.4.1 /home/ubuntu/workspace
+131 verbose already installed skipping material-design-lite@^1.2.1 /home/ubuntu/workspace
+132 verbose already installed skipping ng2-adsense@^1.0.1 /home/ubuntu/workspace
+133 verbose already installed skipping reflect-metadata@^0.1.8 /home/ubuntu/workspace
+134 silly install resolved []
+135 info build /home/ubuntu/workspace
+136 info linkStuff mirenti@1.0.0
+137 silly linkStuff mirenti@1.0.0 has /home/ubuntu as its parent node_modules
+138 verbose linkBins mirenti@1.0.0
+139 verbose linkMans mirenti@1.0.0
+140 verbose rebuildBundles mirenti@1.0.0
+141 verbose rebuildBundles [ '.bin',
+141 verbose rebuildBundles   '@angular',
+141 verbose rebuildBundles   'angular-in-memory-web-api',
+141 verbose rebuildBundles   'bootstrap',
+141 verbose rebuildBundles   'canonical-path',
+141 verbose rebuildBundles   'concurrently',
+141 verbose rebuildBundles   'core-js',
+141 verbose rebuildBundles   'grunt',
+141 verbose rebuildBundles   'http-server',
+141 verbose rebuildBundles   'jasmine-core',
+141 verbose rebuildBundles   'karma',
+141 verbose rebuildBundles   'karma-chrome-launcher',
+141 verbose rebuildBundles   'karma-cli',
+141 verbose rebuildBundles   'karma-htmlfile-reporter',
+141 verbose rebuildBundles   'karma-jasmine',
+141 verbose rebuildBundles   'karma-jasmine-html-reporter',
+141 verbose rebuildBundles   'lite-server',
+141 verbose rebuildBundles   'lodash',
+141 verbose rebuildBundles   'material-design-lite',
+141 verbose rebuildBundles   'ng2-adsense',
+141 verbose rebuildBundles   'protractor',
+141 verbose rebuildBundles   'reflect-metadata',
+141 verbose rebuildBundles   'rimraf',
+141 verbose rebuildBundles   'rxjs',
+141 verbose rebuildBundles   'systemjs',
+141 verbose rebuildBundles   'tslint',
+141 verbose rebuildBundles   'typescript',
+141 verbose rebuildBundles   'typings',
+141 verbose rebuildBundles   'zone.js' ]
+142 info install mirenti@1.0.0
+143 info postinstall mirenti@1.0.0
+144 verbose unsafe-perm in lifecycle true
+145 info mirenti@1.0.0 Failed to exec postinstall script
+146 verbose stack Error: mirenti@1.0.0 postinstall: `typings install`
+146 verbose stack Exit status 1
+146 verbose stack     at EventEmitter.<anonymous> (/home/ubuntu/.nvm/versions/node/v4.7.3/lib/node_modules/npm/lib/utils/lifecycle.js:217:16)
+146 verbose stack     at emitTwo (events.js:87:13)
+146 verbose stack     at EventEmitter.emit (events.js:172:7)
+146 verbose stack     at ChildProcess.<anonymous> (/home/ubuntu/.nvm/versions/node/v4.7.3/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+146 verbose stack     at emitTwo (events.js:87:13)
+146 verbose stack     at ChildProcess.emit (events.js:172:7)
+146 verbose stack     at maybeClose (internal/child_process.js:854:16)
+146 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:222:5)
+147 verbose pkgid mirenti@1.0.0
+148 verbose cwd /home/ubuntu/workspace
+149 error Linux 4.8.8-c9
+150 error argv "/home/ubuntu/.nvm/versions/node/v4.7.3/bin/node" "/home/ubuntu/.nvm/versions/node/v4.7.3/bin/npm" "install"
+151 error node v4.7.3
+152 error npm  v2.15.11
+153 error code ELIFECYCLE
+154 error mirenti@1.0.0 postinstall: `typings install`
+154 error Exit status 1
+155 error Failed at the mirenti@1.0.0 postinstall script 'typings install'.
+155 error This is most likely a problem with the mirenti package,
+155 error not with npm itself.
+155 error Tell the author that this fails on your system:
+155 error     typings install
+155 error You can get information on how to open an issue for this project with:
+155 error     npm bugs mirenti
+155 error Or if that isn't available, you can get their info via:
+155 error
+155 error     npm owner ls mirenti
+155 error There is likely additional logging output above.
+156 verbose exit [ 1, true ]

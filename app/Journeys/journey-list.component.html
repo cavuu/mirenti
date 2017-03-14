@@ -1,0 +1,31 @@
+<div class="text-center"><h2>How to get from {{origin}} to {{destination}}</h2></div>
+    <ad>This is the advert</ad>
+<div class="row">
+  <div class="col-lg-2">
+  </div>
+  <div class="col-lg-8">
+    <div class="panel-group">
+      <div *ngFor="let journey of journeys | async " class="panel panel-default">
+        <div class="panel-heading">
+          <h3><strong>{{journey.mode}}</strong> from <strong>{{journey.origin}}</strong> to <strong>{{journey.destination}}</strong></h3>
+          <div class="text-right">Community Rating: <strong>{{journey.upVotes - journey.downVotes}}</strong></div>
+        </div>
+        <div class="panel-body">
+            Price: {{journey.price}}{{journey.currency}}<br>
+            Journey Start date: {{journey.journeyDate}}<br>
+            Journey Time: {{journey.journeyDuration}}<br>
+            Comments: {{journey.comments}}<br></div>
+        <div class="panel-footer">
+          <button [disabled]="hasVoted" class="btn btn-info btn-lg" (click)='upVote(journey)'> <span class="glyphicon glyphicon-thumbs-up"></span> {{journey.upVotes}} </button>
+          <button [disabled]="hasVoted" class="btn btn-info btn-lg" (click)='downVote(journey)'> <span class="glyphicon glyphicon-thumbs-down"></span> {{journey.downVotes}} </button>
+        </div>
+        <ad>This is the advert</ad>
+      </div>
+      <br>
+      <div class="text-center"><h4>Have you travelled from {{origin}} to {{destination}}?</h4>
+        <a class="btn btn-primary" role="button" [routerLink]="['/journeys/add']">Tell us how!</a></div>
+    </div>
+  </div>
+  <div class="col-lg-2">
+  </div>
+</div>
